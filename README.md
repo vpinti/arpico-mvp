@@ -58,6 +58,10 @@ The project is organized using the `src` directory structure:
 - `src/hooks/`: For custom React hooks.
 - `docs/`: Contains project documentation.
 
+## Live Demo
+
+You can view the deployed project here: [https://arpico-mvp.vercel.app/](https://arpico-mvp.vercel.app/)
+
 ## License
 
 This project is released for personal and non-commercial use only. You may view and study the source code for educational and evaluation purposes, but you are not permitted to modify, redistribute, or use it for commercial purposes without explicit written permission from the author. See the LICENSE file for full details.
