@@ -46,7 +46,7 @@ Start the Next.js development server:
 npm run dev
 ```
 
-The application will be available at [http://localhost:3000](http://localhost:3000).
+The application will be available at [http://localhost:9002](http://localhost:9002).
 
 ## Project Structure
 

@@ -5,6 +5,7 @@ import Header from '@/components/shared/Header';
 import Footer from '@/components/shared/Footer';
 import { Toaster } from '@/components/ui/toaster';
 import { ThemeProvider } from '@/components/shared/theme-provider';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export const metadata: Metadata = {
   title: 'Scienza e Cultura | Italian-Canadian Scientific & Cultural Association',
@@ -32,6 +33,7 @@ export default function RootLayout({
         >
           <Header />
           <main>{children}</main>
+          <SpeedInsights />
           <Footer />
           <Toaster />
         </ThemeProvider>
